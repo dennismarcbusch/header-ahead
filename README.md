@@ -165,3 +165,15 @@ Spielzeit, Punktwerte und Rangschwellen sind geschätzt, bis das Spiel im Unterr
 Header Ahead ist das erste Spiel einer geplanten Reihe von Lern-Tabletops zu den eher abstrakten Themen
 in ITS. Für alle Spiele der Reihe gilt: mindestens 2 Spielende, in 30 Minuten durchgespielt, ein Satz pro
 Spiel, kein Druckteil größer als 240 × 200 mm.
+
+## Lizenz
+
+Header Ahead steht unter der Lizenz
+[Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.de).
+Das gilt für alles in diesem Repository: Druckdateien, Karten, Anleitung, Bilder und Code.
+Der vollständige Lizenztext steht in [`LICENSE`](LICENSE).
+
+Du darfst das Material nutzen, drucken, verändern und weitergeben, auch kommerziell. Bedingung: Du nennst
+den Urheber und gibst Deine Fassung unter derselben Lizenz weiter.
+
+Namensnennung: „Header Ahead“ von Dennis Busch, <https://github.com/dennismarcbusch/header-ahead>, CC BY-SA 4.0.
