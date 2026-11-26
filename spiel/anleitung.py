@@ -16,7 +16,7 @@ HIER = Path(__file__).resolve().parent
 WURZEL = HIER.parent
 sys.path.insert(0, str(HIER))
 
-from daten import AUFTRAEGE, EREIGNISSE, plaettchen  # noqa: E402
+from daten import AUFTRAEGE, EREIGNISSE, LIZENZ, QUELLE, URHEBER, plaettchen  # noqa: E402
 from loesung import ALLE  # noqa: E402
 from stil import GRUND  # noqa: E402
 
@@ -78,7 +78,7 @@ def baue():
 
     return f"""<!doctype html>
 <html lang="de"><head><meta charset="utf-8"><title>Header Ahead · Spielanleitung</title>
-<style>{GRUND}{CSS}</style></head><body>
+<style>{GRUND}{CSS}{CSS_LIZENZ}</style></head><body>
 
 <section class="titel">
   <div class="kopfband"><span class="marke">bitflip_</span><span>Lern-Tabletops · ITS 10. Klasse</span></div>
@@ -434,6 +434,13 @@ def baue():
 </section>
 </body></html>"""
 
+
+# Lizenzhinweis: in der Fußzeile jeder Seite, auf der Titelseite mit Urheber und Quelle
+CSS_LIZENZ = f"""
+@page {{ @bottom-left {{ content: "Header Ahead · Spielanleitung · {LIZENZ}"; }} }}
+@page :first {{ @bottom-left {{ content: "Header Ahead von {URHEBER} · Lizenz {LIZENZ} · {QUELLE}";
+  font-family: "JetBrains Mono", monospace; font-size: 7pt; color: #5B6672; }} }}
+"""
 
 CSS = """
 @page { size: A4; margin: 15mm 16mm 16mm;

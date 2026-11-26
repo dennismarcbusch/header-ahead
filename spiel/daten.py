@@ -4,6 +4,11 @@ Alles, was auf Plättchen, Karten und in den Lösungen steht, kommt aus dieser
 Datei. Die Lösungen werden daraus berechnet (loesung.py), nicht abgetippt.
 """
 
+# --- Herkunft und Lizenz (stehen in der Anleitung und auf den Kartenbögen) -----
+URHEBER = "Dennis Busch"
+LIZENZ = "CC BY-SA 4.0"
+QUELLE = "github.com/dennismarcbusch/header-ahead"
+
 # --- Geräte -----------------------------------------------------------------
 # MAC-Adressen stehen vollständig da (sechs Bytes). Die ersten drei Bytes sind der
 # Herstellerteil, die letzten drei der Geräteteil. Alle Hosts haben denselben

@@ -16,7 +16,8 @@ HIER = Path(__file__).resolve().parent
 WURZEL = HIER.parent
 sys.path.insert(0, str(HIER))
 
-from daten import CLIENT_PORTS, DIENSTE, EREIGNISSE, HOSTS, NETZE, ROUTER, SWITCH_PORTS, mac_teile  # noqa: E402
+from daten import (CLIENT_PORTS, DIENSTE, EREIGNISSE, HOSTS, LIZENZ, NETZE, QUELLE, ROUTER,  # noqa: E402
+                   SWITCH_PORTS, URHEBER, mac_teile)
 from loesung import ALLE, CLIENT_PORT, merksatz  # noqa: E402
 from stil import GRUND, KARTEN  # noqa: E402
 
@@ -235,7 +236,7 @@ def netzplan(stufe):
                   "Zwei Netze, verbunden durch den Router. Ziele im fremden Netz erreicht man nur über das Gateway.")
     return f"""<section class="seite netzplan">
   <header><div><h1>Netzplan · Stufe {stufe}{' und 3' if voll else ''}</h1><p>{untertitel}</p></div>
-    <div class="marke">header-ahead_</div></header>
+    <div class="marke">header-ahead_<span class="lizenz">{URHEBER} · {LIZENZ} · {QUELLE}</span></div></header>
   <div class="np-flaeche">{''.join(teile)}</div>
   <div class="np-unten">
     <table class="np-dienste"><tr><th>Dienst</th><th>Port</th><th>Transport</th><th>Wozu</th><th>Läuft auf</th></tr>{dienste}</table>
@@ -261,7 +262,8 @@ SEITEN_CSS = """
   padding-bottom: 2mm; margin-bottom: 3mm; }
 .netzplan h1 { font-size: 17pt; margin: 0; font-weight: 800; }
 .netzplan header p { margin: 0.6mm 0 0; font-size: 9.5pt; color: var(--grau); }
-.marke { font-family: "JetBrains Mono", monospace; font-weight: 800; font-size: 10pt; }
+.marke { font-family: "JetBrains Mono", monospace; font-weight: 800; font-size: 10pt; text-align: right; }
+.marke .lizenz { display: block; font-family: "Inter", sans-serif; font-weight: 400; font-size: 6.5pt; color: var(--grau); margin-top: 0.8mm; }
 .np-flaeche { position: relative; width: 277mm; height: 138mm; }
 .np-netz { position: absolute; border-radius: 3mm; }
 .np-netz span { position: absolute; left: 3mm; top: 2mm; font-family: "JetBrains Mono", monospace; font-weight: 700; font-size: 9pt; }
@@ -300,7 +302,7 @@ SEITEN_CSS = """
 def bogen(klasse, karten, hinweis):
     # Der Hinweis steht außerhalb des Rasters, sonst zählt er als Rasterzelle und rutscht auf eine eigene Seite.
     return (f'<section class="seite bogenseite {klasse}"><div class="bogen">{"".join(karten)}</div>'
-            f'<div class="hinweis">{hinweis}</div></section>')
+            f'<div class="hinweis">{hinweis} · Header Ahead · {LIZENZ}</div></section>')
 
 
 def druckvorlage():
