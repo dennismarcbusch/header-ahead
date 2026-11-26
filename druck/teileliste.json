@@ -1,0 +1,422 @@
+{
+ "teile": [
+  {
+   "name": "frame_schale",
+   "anzahl": 3,
+   "farbe": "orange",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    226.8,
+    61.8,
+    19.2
+   ],
+   "volumen_cm3": 114.6
+  },
+  {
+   "name": "ip_header",
+   "anzahl": 3,
+   "farbe": "gruen",
+   "schriftfarbe": "weiss",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    50.0,
+    56.0,
+    16.0
+   ],
+   "volumen_cm3": 39.4
+  },
+  {
+   "name": "tcp_header",
+   "anzahl": 2,
+   "farbe": "blau",
+   "schriftfarbe": "weiss",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    60.0,
+    56.0,
+    16.0
+   ],
+   "volumen_cm3": 40.6
+  },
+  {
+   "name": "udp_header",
+   "anzahl": 2,
+   "farbe": "hellblau",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    60.0,
+    56.0,
+    16.0
+   ],
+   "volumen_cm3": 40.6
+  },
+  {
+   "name": "daten_block",
+   "anzahl": 3,
+   "farbe": "silber",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    71.0,
+    56.0,
+    16.0
+   ],
+   "volumen_cm3": 49.8
+  },
+  {
+   "name": "fcs_plaettchen",
+   "anzahl": 4,
+   "farbe": "gruen",
+   "schriftfarbe": "weiss",
+   "hinweis": "Farbwechsel bei 2,5 mm: unten rot, oben grün",
+   "kopfueber": false,
+   "masse_mm": [
+    15.0,
+    15.0,
+    5.0
+   ],
+   "volumen_cm3": 1.1
+  },
+  {
+   "name": "stoerungs_chip",
+   "anzahl": 6,
+   "farbe": "rot",
+   "schriftfarbe": "weiss",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    28.0,
+    28.0,
+    3.2
+   ],
+   "volumen_cm3": 2.0
+  },
+  {
+   "name": "kabel",
+   "anzahl": 6,
+   "farbe": "anthrazit",
+   "schriftfarbe": "weiss",
+   "hinweis": "5 im Spiel, 1 Reserve",
+   "kopfueber": false,
+   "masse_mm": [
+    100.0,
+    68.4,
+    6.0
+   ],
+   "volumen_cm3": 14.0
+  },
+  {
+   "name": "platte_host",
+   "anzahl": 4,
+   "farbe": "hellgrau",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    240.0,
+    200.0,
+    8.0
+   ],
+   "volumen_cm3": 237.5
+  },
+  {
+   "name": "platte_switch",
+   "anzahl": 1,
+   "farbe": "hellgrau",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    240.0,
+    200.0,
+    6.0
+   ],
+   "volumen_cm3": 220.1
+  },
+  {
+   "name": "platte_router",
+   "anzahl": 1,
+   "farbe": "hellgrau",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    240.0,
+    200.0,
+    8.0
+   ],
+   "volumen_cm3": 230.8
+  },
+  {
+   "name": "switch_tunnel",
+   "anzahl": 1,
+   "farbe": "orange",
+   "schriftfarbe": "schwarz",
+   "hinweis": "liegt in der STL-Datei kopfüber",
+   "kopfueber": true,
+   "masse_mm": [
+    157.6,
+    70.0,
+    27.0
+   ],
+   "volumen_cm3": 55.7
+  },
+  {
+   "name": "router_dach",
+   "anzahl": 1,
+   "farbe": "gruen",
+   "schriftfarbe": "weiss",
+   "hinweis": "liegt in der STL-Datei kopfüber",
+   "kopfueber": true,
+   "masse_mm": [
+    110.4,
+    59.5,
+    27.0
+   ],
+   "volumen_cm3": 31.8
+  },
+  {
+   "name": "vorratskasten",
+   "anzahl": 1,
+   "farbe": "hellgrau",
+   "schriftfarbe": "schwarz",
+   "hinweis": "",
+   "kopfueber": false,
+   "masse_mm": [
+    222.8,
+    178.8,
+    10.0
+   ],
+   "volumen_cm3": 197.9
+  },
+  {
+   "name": "plaettchen_mac",
+   "anzahl": 1,
+   "farbe": "weiss",
+   "schriftfarbe": "schwarz",
+   "hinweis": "ein Bogen mit 12 Plättchen",
+   "kopfueber": false,
+   "masse_mm": [
+    194.0,
+    57.0,
+    5.0
+   ],
+   "volumen_cm3": 39.3,
+   "texte": [
+    "00:1B:44:\n4C:A1:07",
+    "00:1B:44:\n4C:A1:07",
+    "00:1B:44:\n9E:32:F4",
+    "00:1B:44:\n9E:32:F4",
+    "00:1B:44:\n2A:F3:6C",
+    "00:1B:44:\n2A:F3:6C",
+    "00:1B:44:\n7C:3F:94",
+    "00:1B:44:\n7C:3F:94",
+    "A8:5E:45:\nE0:15:0A",
+    "A8:5E:45:\nE0:15:0A",
+    "A8:5E:45:\nE0:15:0B",
+    "A8:5E:45:\nE0:15:0B"
+   ],
+   "spalten": 4
+  },
+  {
+   "name": "plaettchen_ip",
+   "anzahl": 1,
+   "farbe": "weiss",
+   "schriftfarbe": "schwarz",
+   "hinweis": "ein Bogen mit 12 Plättchen",
+   "kopfueber": false,
+   "masse_mm": [
+    194.0,
+    57.0,
+    5.0
+   ],
+   "volumen_cm3": 39.3,
+   "texte": [
+    "10.0.1.11",
+    "10.0.1.11",
+    "10.0.1.12",
+    "10.0.1.12",
+    "10.0.1.20",
+    "10.0.1.20",
+    "10.0.2.10",
+    "10.0.2.10",
+    "10.0.1.1",
+    "10.0.1.1",
+    "10.0.2.1",
+    "10.0.2.1"
+   ],
+   "spalten": 4
+  },
+  {
+   "name": "plaettchen_port",
+   "anzahl": 1,
+   "farbe": "weiss",
+   "schriftfarbe": "schwarz",
+   "hinweis": "ein Bogen mit 14 Plättchen",
+   "kopfueber": false,
+   "masse_mm": [
+    194.0,
+    78.0,
+    5.0
+   ],
+   "volumen_cm3": 45.8,
+   "texte": [
+    "80",
+    "80",
+    "443",
+    "443",
+    "53",
+    "53",
+    "123",
+    "123",
+    "25",
+    "25",
+    "49152",
+    "50001",
+    "51515",
+    "60000"
+   ],
+   "spalten": 4
+  },
+  {
+   "name": "plaettchen_protokoll",
+   "anzahl": 1,
+   "farbe": "weiss",
+   "schriftfarbe": "schwarz",
+   "hinweis": "ein Bogen mit 10 Plättchen",
+   "kopfueber": false,
+   "masse_mm": [
+    194.0,
+    57.0,
+    5.0
+   ],
+   "volumen_cm3": 32.7,
+   "texte": [
+    "HTTP",
+    "HTTP",
+    "HTTPS",
+    "HTTPS",
+    "DNS",
+    "DNS",
+    "NTP",
+    "NTP",
+    "SMTP",
+    "SMTP"
+   ],
+   "spalten": 4
+  }
+ ],
+ "plaettchen": {
+  "00:1B:44:\n4C:A1:07": {
+   "datei": "pl_00_1b_44_4c_a1_07",
+   "sorte": "mac"
+  },
+  "00:1B:44:\n9E:32:F4": {
+   "datei": "pl_00_1b_44_9e_32_f4",
+   "sorte": "mac"
+  },
+  "00:1B:44:\n2A:F3:6C": {
+   "datei": "pl_00_1b_44_2a_f3_6c",
+   "sorte": "mac"
+  },
+  "00:1B:44:\n7C:3F:94": {
+   "datei": "pl_00_1b_44_7c_3f_94",
+   "sorte": "mac"
+  },
+  "A8:5E:45:\nE0:15:0A": {
+   "datei": "pl_a8_5e_45_e0_15_0a",
+   "sorte": "mac"
+  },
+  "A8:5E:45:\nE0:15:0B": {
+   "datei": "pl_a8_5e_45_e0_15_0b",
+   "sorte": "mac"
+  },
+  "10.0.1.11": {
+   "datei": "pl_10_0_1_11",
+   "sorte": "ip"
+  },
+  "10.0.1.12": {
+   "datei": "pl_10_0_1_12",
+   "sorte": "ip"
+  },
+  "10.0.1.20": {
+   "datei": "pl_10_0_1_20",
+   "sorte": "ip"
+  },
+  "10.0.2.10": {
+   "datei": "pl_10_0_2_10",
+   "sorte": "ip"
+  },
+  "10.0.1.1": {
+   "datei": "pl_10_0_1_1",
+   "sorte": "ip"
+  },
+  "10.0.2.1": {
+   "datei": "pl_10_0_2_1",
+   "sorte": "ip"
+  },
+  "80": {
+   "datei": "pl_80",
+   "sorte": "port"
+  },
+  "443": {
+   "datei": "pl_443",
+   "sorte": "port"
+  },
+  "53": {
+   "datei": "pl_53",
+   "sorte": "port"
+  },
+  "123": {
+   "datei": "pl_123",
+   "sorte": "port"
+  },
+  "25": {
+   "datei": "pl_25",
+   "sorte": "port"
+  },
+  "49152": {
+   "datei": "pl_49152",
+   "sorte": "port"
+  },
+  "50001": {
+   "datei": "pl_50001",
+   "sorte": "port"
+  },
+  "51515": {
+   "datei": "pl_51515",
+   "sorte": "port"
+  },
+  "60000": {
+   "datei": "pl_60000",
+   "sorte": "port"
+  },
+  "HTTP": {
+   "datei": "pl_http",
+   "sorte": "protokoll"
+  },
+  "HTTPS": {
+   "datei": "pl_https",
+   "sorte": "protokoll"
+  },
+  "DNS": {
+   "datei": "pl_dns",
+   "sorte": "protokoll"
+  },
+  "NTP": {
+   "datei": "pl_ntp",
+   "sorte": "protokoll"
+  },
+  "SMTP": {
+   "datei": "pl_smtp",
+   "sorte": "protokoll"
+  }
+ }
+}

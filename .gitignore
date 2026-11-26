@@ -1,0 +1,6 @@
+.venv
+__pycache__/
+# Zwischenstände, die sich jederzeit neu erzeugen lassen
+cad/_render/
+spiel/_html/
+spiel/_karten/
