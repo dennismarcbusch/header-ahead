@@ -46,10 +46,15 @@ Das Paket liegt darin.
 
 ### Kapseln in fünf Schritten
 
-| 5–7 Anwendung | 4 Transport | 3 Vermittlung | 2 Sicherung | 1 Bitübertragung |
-|---|---|---|---|---|
-| ![Schritt 1](bilder/schritt_1.png) | ![Schritt 2](bilder/schritt_2.png) | ![Schritt 3](bilder/schritt_3.png) | ![Schritt 4](bilder/schritt_4.png) | ![Schritt 5](bilder/schritt_5.png) |
-| Daten-Block mit dem Protokoll | TCP- oder UDP-Header mit den Ports: ein Segment | IP-Header mit den IP-Adressen: ein Paket | In die Schale mit den MAC-Adressen und der FCS: ein Frame | Über das Kabel zur nächsten Station |
+| 5–7 Anwendung | 4 Transport | 3 Vermittlung |
+|---|---|---|
+| <img src="bilder/schritt_1.png" width="260" alt="Schritt 1: Daten-Block auf dem Montageplatz"> | <img src="bilder/schritt_2.png" width="260" alt="Schritt 2: TCP-Header angesteckt"> | <img src="bilder/schritt_3.png" width="260" alt="Schritt 3: IP-Header angesteckt"> |
+| Daten-Block mit dem Protokoll | TCP- oder UDP-Header mit den Ports: ein Segment | IP-Header mit den IP-Adressen: ein Paket |
+
+| 2 Sicherung | 1 Bitübertragung |
+|---|---|
+| <img src="bilder/schritt_4.png" width="260" alt="Schritt 4: Paket in der Frame-Schale"> | <img src="bilder/schritt_5.png" width="260" alt="Schritt 5: Schale auf dem Kabel"> |
+| In die Schale mit den MAC-Adressen und der FCS: ein Frame | Über das Kabel zur nächsten Station |
 
 ### Switch und Router lesen nur ihre Schichten
 
